@@ -1,7 +1,7 @@
 
-const fs = require('fs.promisify'),
+const fs = require('@product-live/fs.promisify'),
 	crypto = require('crypto'),
-	promise = require('promise.util'),
+	promise = require('@product-live/promise.util'),
 	path = require('path');
 
 class Util {
